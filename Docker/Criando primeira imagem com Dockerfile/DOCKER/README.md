@@ -66,7 +66,9 @@ docker rm <container_id>
 Substitua "<container_id>" pelo ID do contêiner que você obteve ao executar o contêiner.
 
 Isso é tudo! Você criou com sucesso sua primeira imagem Docker e a executou em um contêiner. Agora você pode experimentar criando imagens mais complexas e personalizadas para suas necessidades específicas.
-
+Aqui uma imagem com os comando no termonal LINUX 
+![Web 0](https://github.com/williamsartijose/fulcyle3.0/blob/main/Docker/Criando%20primeira%20imagem%20com%20Dockerfile/DOCKER/html/img.png
+)
 
 # Autor
 
