@@ -52,6 +52,15 @@ Lembre-se de substituir `nome_do_seu_usuario`, `nome_do_repositorio` e `tag` pel
 
 Observe que para enviar imagens privadas, você deve configurar as permissões corretas no Docker Hub para permitir que outras pessoas acessem a imagem, se necessário.
 
+## Imagem do meu Terminal 
+![Web 0](https://github.com/williamsartijose/fulcyle3.0/blob/main/Docker/Publicando%20imagem%20no%20DockerHub/DOCKER/html/img2.png)
+## A Imagem no DockerHUB
+![Web 0](https://github.com/williamsartijose/fulcyle3.0/blob/main/Docker/Publicando%20imagem%20no%20DockerHub/DOCKER/html/Img3.png)
+## Link da Imagem  da imagem publicada no DockerHUB 
+
+https://hub.docker.com/repository/docker/williamsartijose/nginx-fullcycle/general
+
+
 # Autor
 
 William Sarti José
