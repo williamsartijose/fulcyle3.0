@@ -1,18 +1,7 @@
-FROM php:7.4-cli
+FROM node:15
 
-WORKDIR /var/www
-RUN apt-get update && \
-    apt-get install libzip-dev -y && \
-    docker-php-ext-install zip
+WORKDIR /usr/src/app
+COPY . .
 
-RUN  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
-     php composer-setup.php && \
-     php -r "unlink('composer-setup.php');"  
-
-RUN php composer.phar create-project --prefer-dist laravel/laravel
-
-# Configure o ENTRYPOINT para executar o Laravel
-ENTRYPOINT [ "php", "laravel/artisan" ]
-
-# Adicione o comando padrão que será passado como argumento para o ENTRYPOINT
-CMD [ "serve", "--host=0.0.0.0" ]
+EXPOSE 3000
+CMD [ "node", "index.js" ]
